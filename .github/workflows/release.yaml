@@ -27,4 +27,4 @@ jobs:
           registry: ghcr.io
           tags: v0.4.1, latest
           username: ${{ github.actor }}
-          password: ${{ github.MY_TOKEN2 }}
+          password: ${{ secrets.GHCR_TOKEN }}
