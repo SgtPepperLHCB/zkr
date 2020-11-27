@@ -25,6 +25,6 @@ jobs:
         with:
           image: sgtpepperlhcb/zkr
           registry: ghcr.io
-          tags: v0.4-dev-11, latest
+          tags: v0.4.1, latest
           username: ${{ github.actor }}
-          password: ${{ secrets.MY_TOKEN }}
+          password: ${{ github.MY_TOKEN2 }}
